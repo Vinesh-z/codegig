@@ -1,0 +1,23 @@
+{
+    "name": "codegig",
+    "version": "1.0.0",
+    "description": "simple job find app for coders",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "author": "Vinesh",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "pg": "^8.4.2",
+        "pg-hstore": "^2.3.3",
+        "sequelize": "^6.3.5"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
